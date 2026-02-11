@@ -65,11 +65,6 @@ MiniTweet, kullanicilarin tweet atabilecegi, takip edebilecegi ve birbirleriyle 
 
 ---
 
-## 👤 Gelistiriciler
-
-- **Yasin Dağ** — 19240001413
-- **Ömer Demirel** — 1924001410
-
 ---
 
 
