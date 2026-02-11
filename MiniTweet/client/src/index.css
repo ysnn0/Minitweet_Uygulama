@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global gradient background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1f1f1f, #121212);
+    color: white;
+    min-height: 100vh;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: rgba(0, 0, 0, 0.7); /* Yarı şeffaf arka plan */
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Welcome container (opsiyonel) */
+  .welcome-container {
+    max-width: 400px;
+    margin: 100px auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  /* Tweet Container */
+  .tweet {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 16px;
+    margin: 16px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  }
+  
+  /* Buttons */
+  button, .welcome-button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover, .welcome-button:hover {
+    background-color: #2563eb;
+  }
+  
